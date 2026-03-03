@@ -8,9 +8,13 @@ and security of our digital infrastructure.
 Intrusion detection is a complex task, as attackers constantly evolve their techniques, making it difficult to detect their malicious actions. Traditional methods
 often rely on signatures, which can be easily bypassed by new attack methods. 
 
-## Dataset
+## Datasets
 
+### KDD Cup 99
 This project utilizes the [KDD_CUP_99 Dataset](http://kdd.ics.uci.edu/databases/kddcup99/kddcup99.html), a widely recognized benchmark dataset for intrusion detection research. KDD99 provides a rich collection of network connection records, labeled as either normal or various types of attacks, such as Denial-of-service (DoS), Probe, and User-to-root (U2R). This dataset allows for robust evaluation of intrusion detection models.
+
+### CSE-CIC-IDS2018
+The project also supports the [CSE-CIC-IDS2018 Dataset](https://www.unb.ca/cic/datasets/ids-2018.html), a modern and comprehensive intrusion detection dataset from the Canadian Institute for Cybersecurity. It contains network traffic captured over 10 days with realistic benign and attack scenarios including Brute Force, DoS, DDoS, Web Attacks, Botnet, and Infiltration. The notebook `NIDS_Transformer_CICIDS2018.ipynb` applies the same transformer-based methodology to this dataset.
 
 
 ## Transformer Model for Intrusion Detection
